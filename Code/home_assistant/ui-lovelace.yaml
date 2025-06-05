@@ -1,0 +1,21 @@
+title: Smart Home Dashboard
+views:
+  - title: Smart Home
+    path: smart_home
+    cards:
+      - type: entities
+        title: Steuerung
+        entities:
+          - sensor.smart_home_sensor
+          - input_text.display_text
+          - script.display_text_on_lcd
+          - script.clear_lcd_display
+      - type: gauge
+        entity: sensor.smart_home_sensor
+        min: 0
+        max: 100
+        name: Sensorwert
+      - type: history-graph
+        title: Verlauf
+        entities:
+          - sensor.smart_home_sensor
