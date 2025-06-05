@@ -1,0 +1,33 @@
+# Home Assistant Configuration for Smart Home Project
+mqtt:
+
+sensor:
+  - platform: mqtt
+    name: "Smart Home Sensor"
+    state_topic: "home/test"
+
+# Example automation (optional)
+input_text:
+  display_text:
+    name: "Display Text"
+    initial: ""
+    max: 32
+
+script:
+  display_text:
+    alias: "Display Text on LCD"
+    sequence:
+      - service: mqtt.publish
+        data:
+          topic: "home/display"
+          payload: "{{ states('input_text.display_text') }}"
+
+  clear_display:
+    alias: "Clear LCD Display"
+    sequence:
+      - service: mqtt.publish
+        data:
+          topic: "home/display/clear"
+          payload: "CLEAR"
+
+

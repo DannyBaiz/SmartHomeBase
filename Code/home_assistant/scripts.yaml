@@ -1,0 +1,14 @@
+display_text_on_lcd:
+  sequence:
+  - data:
+      topic: home/display
+      payload: '{{ states(''input_text.display_text'') }}'
+    action: mqtt.publish
+  alias: Display Text on LCD
+  description: ''
+clear_lcd_display:
+  sequence:
+  - action: script.clear_display
+    data: {}
+  alias: Clear LCD Display
+  description: ''

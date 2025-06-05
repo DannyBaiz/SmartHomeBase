@@ -1,0 +1,30 @@
+services:
+  homeassistant:
+    container_name: homeassistant
+    image: ghcr.io/home-assistant/home-assistant:stable
+    volumes:
+      - ./home_assistant:/config
+    environment:
+      - TZ=Europe/Berlin
+    restart: unless-stopped
+    networks:
+      - home_network
+    ports:
+      - 8123:8123
+
+  mosquitto:
+    image: eclipse-mosquitto:latest
+    container_name: mosquitto
+    restart: unless-stopped
+    ports:
+      - 1883:1883
+      - 9001:9001
+    volumes:
+      - ./mosquitto/config:/mosquitto/config
+      - ./mosquitto/data:/mosquitto/data
+      - ./mosquitto/log:/mosquitto/log
+    networks:
+      - home_network
+networks:
+  home_network:
+    driver: bridge

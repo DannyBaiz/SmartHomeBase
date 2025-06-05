@@ -1,0 +1,433 @@
+2025-06-05 17:39:15.742 ERROR (MainThread) [homeassistant.components.sensor] The mqtt platform for the sensor integration does not support platform setup. Please remove it from your config.
+2025-06-05 17:39:15.966 WARNING (MainThread) [homeassistant.components.homeassistant.triggers.numeric_state] Error initializing 'Notify on High Sensor Value' trigger: In 'numeric_state' condition: unknown entity sensor.smart_home_sensor
+2025-06-05 17:47:55.983 DEBUG (MainThread) [homeassistant.components.mqtt.client] mosquitto: register write 23
+2025-06-05 17:47:55.983 DEBUG (MainThread) [homeassistant.components.mqtt.client] Unsubscribing with mid: 71 to topics: ['home/image/+/config', 'home/sensor/+/+/config', 'home/number/+/+/config', 'home/button/+/config', 'home/device_automation/+/config', 'home/tag/+/config', 'home/button/+/+/config', 'home/device_tracker/+/config', 'home/fan/+/+/config', 'home/climate/+/config', 'home/number/+/config', 'home/lock/+/+/config', 'home/update/+/+/config', 'home/fan/+/config', 'cloudapp/QBUSMQTTGW/state', 'home/binary_sensor/+/config', 'home/climate/+/+/config', 'home/camera/+/config', 'home/text/+/config', 'home/binary_sensor/+/+/config', 'home/siren/+/+/config', 'home/cover/+/config', 'home/event/+/+/config', 'home/scene/+/+/config', 'home/valve/+/+/config', 'home/select/+/config', 'home/device_tracker/+/+/config', 'home/light/+/+/config', 'drop_connect/discovery/#', 'home/lawn_mower/+/config', 'home/humidifier/+/+/config', 'home/valve/+/config', 'home/lock/+/config', 'home/image/+/+/config', 'home/alarm_control_panel/+/+/config', 'pglab/discovery/#', 'home/switch/+/config', 'home/device/+/config', 'home/device/+/+/config', 'home/humidifier/+/config', 'home/siren/+/config', 'home/sensor/+/config', 'home/vacuum/+/+/config', 'home/camera/+/+/config', 'home/notify/+/config', 'home/notify/+/+/config', 'tasmota/discovery/#', 'home/water_heater/+/config', 'home/text/+/+/config', 'esphome/discover/#', 'cloudapp/QBUSMQTTGW/+/state', 'home/event/+/config', 'home/scene/+/config', 'home/alarm_control_panel/+/config', 'home/light/+/config', 'home/device_automation/+/+/config', 'home/tag/+/+/config', 'home/switch/+/+/config', 'cloudapp/QBUSMQTTGW/config', 'dsmr/#', 'home/select/+/+/config', 'home/cover/+/+/config', 'home/vacuum/+/config', 'fully/deviceInfo/+', 'home/update/+/config', 'home/water_heater/+/+/config', 'home/lawn_mower/+/+/config']
+2025-06-05 17:47:55.986 DEBUG (MainThread) [homeassistant.components.mqtt.client] mosquitto: unregister write 23
+2025-06-05 17:47:55.989 DEBUG (MainThread) [homeassistant.components.mqtt.client] mosquitto: register write 23
+2025-06-05 17:47:55.990 INFO (MainThread) [homeassistant.components.mqtt.client] Disconnected from MQTT server mosquitto:1883 (Normal disconnection)
+2025-06-05 17:47:55.990 DEBUG (MainThread) [homeassistant.components.mqtt.client] mosquitto: unregister write 23
+2025-06-05 17:47:55.990 DEBUG (MainThread) [homeassistant.components.mqtt.client] mosquitto: connection closed 23
+2025-06-05 17:47:56.002 DEBUG (MainThread) [homeassistant.components.mqtt.client] mosquitto: connection opened 19
+2025-06-05 17:47:56.002 DEBUG (MainThread) [homeassistant.components.mqtt.client] mosquitto: Starting client misc loop
+2025-06-05 17:47:56.002 DEBUG (MainThread) [homeassistant.components.mqtt.client] mosquitto: register write 19
+2025-06-05 17:47:56.004 DEBUG (MainThread) [homeassistant.components.mqtt.client] mosquitto: unregister write 19
+2025-06-05 17:47:56.005 DEBUG (MainThread) [homeassistant.components.mqtt.client] mosquitto: register write 19
+2025-06-05 17:47:56.006 DEBUG (MainThread) [homeassistant.components.mqtt.client] Connected to MQTT server mosquitto:1883 (Success)
+2025-06-05 17:47:56.006 INFO (MainThread) [homeassistant.components.mqtt.client] Disconnected from MQTT server mosquitto:1883 (Normal disconnection)
+2025-06-05 17:47:56.006 DEBUG (MainThread) [homeassistant.components.mqtt.client] mosquitto: unregister write 19
+2025-06-05 17:47:56.006 DEBUG (MainThread) [homeassistant.components.mqtt.client] mosquitto: connection closed 19
+2025-06-05 17:47:56.013 DEBUG (MainThread) [homeassistant.components.mqtt.client] mosquitto: connection opened 19
+2025-06-05 17:47:56.013 DEBUG (MainThread) [homeassistant.components.mqtt.client] mosquitto: Starting client misc loop
+2025-06-05 17:47:56.013 DEBUG (MainThread) [homeassistant.components.mqtt.client] mosquitto: register write 19
+2025-06-05 17:47:56.014 DEBUG (MainThread) [homeassistant.components.mqtt.client] mosquitto: unregister write 19
+2025-06-05 17:47:56.014 DEBUG (MainThread) [homeassistant.components.mqtt.client] Connected to MQTT server mosquitto:1883 (Success)
+2025-06-05 17:47:56.516 DEBUG (MainThread) [homeassistant.components.mqtt.client] mosquitto: register write 19
+2025-06-05 17:47:56.517 DEBUG (MainThread) [homeassistant.components.mqtt.client] Subscribing with mid: 1 to topics with qos: [('home/alarm_control_panel/+/config', 0)]
+2025-06-05 17:47:56.518 DEBUG (MainThread) [homeassistant.components.mqtt.client] mosquitto: unregister write 19
+2025-06-05 17:47:56.518 DEBUG (MainThread) [homeassistant.components.mqtt.client] mosquitto: register write 19
+2025-06-05 17:47:56.519 DEBUG (MainThread) [homeassistant.components.mqtt.client] Subscribing with mid: 2 to topics with qos: [('home/binary_sensor/+/config', 0)]
+2025-06-05 17:47:56.519 DEBUG (MainThread) [homeassistant.components.mqtt.client] mosquitto: unregister write 19
+2025-06-05 17:47:56.520 DEBUG (MainThread) [homeassistant.components.mqtt.client] mosquitto: register write 19
+2025-06-05 17:47:56.520 DEBUG (MainThread) [homeassistant.components.mqtt.client] Subscribing with mid: 3 to topics with qos: [('home/button/+/config', 0)]
+2025-06-05 17:47:56.520 DEBUG (MainThread) [homeassistant.components.mqtt.client] mosquitto: unregister write 19
+2025-06-05 17:47:56.521 DEBUG (MainThread) [homeassistant.components.mqtt.client] mosquitto: register write 19
+2025-06-05 17:47:56.522 DEBUG (MainThread) [homeassistant.components.mqtt.client] Subscribing with mid: 4 to topics with qos: [('home/camera/+/config', 0)]
+2025-06-05 17:47:56.522 DEBUG (MainThread) [homeassistant.components.mqtt.client] mosquitto: unregister write 19
+2025-06-05 17:47:56.522 DEBUG (MainThread) [homeassistant.components.mqtt.client] mosquitto: register write 19
+2025-06-05 17:47:56.522 DEBUG (MainThread) [homeassistant.components.mqtt.client] Subscribing with mid: 5 to topics with qos: [('home/climate/+/config', 0)]
+2025-06-05 17:47:56.523 DEBUG (MainThread) [homeassistant.components.mqtt.client] mosquitto: unregister write 19
+2025-06-05 17:47:56.523 DEBUG (MainThread) [homeassistant.components.mqtt.client] mosquitto: register write 19
+2025-06-05 17:47:56.523 DEBUG (MainThread) [homeassistant.components.mqtt.client] Subscribing with mid: 6 to topics with qos: [('home/cover/+/config', 0)]
+2025-06-05 17:47:56.523 DEBUG (MainThread) [homeassistant.components.mqtt.client] mosquitto: unregister write 19
+2025-06-05 17:47:56.524 DEBUG (MainThread) [homeassistant.components.mqtt.client] mosquitto: register write 19
+2025-06-05 17:47:56.524 DEBUG (MainThread) [homeassistant.components.mqtt.client] Subscribing with mid: 7 to topics with qos: [('home/device_automation/+/config', 0)]
+2025-06-05 17:47:56.524 DEBUG (MainThread) [homeassistant.components.mqtt.client] mosquitto: unregister write 19
+2025-06-05 17:47:56.525 DEBUG (MainThread) [homeassistant.components.mqtt.client] mosquitto: register write 19
+2025-06-05 17:47:56.525 DEBUG (MainThread) [homeassistant.components.mqtt.client] Subscribing with mid: 8 to topics with qos: [('home/device_tracker/+/config', 0)]
+2025-06-05 17:47:56.525 DEBUG (MainThread) [homeassistant.components.mqtt.client] mosquitto: unregister write 19
+2025-06-05 17:47:56.526 DEBUG (MainThread) [homeassistant.components.mqtt.client] mosquitto: register write 19
+2025-06-05 17:47:56.526 DEBUG (MainThread) [homeassistant.components.mqtt.client] Subscribing with mid: 9 to topics with qos: [('home/event/+/config', 0)]
+2025-06-05 17:47:56.526 DEBUG (MainThread) [homeassistant.components.mqtt.client] mosquitto: unregister write 19
+2025-06-05 17:47:56.527 DEBUG (MainThread) [homeassistant.components.mqtt.client] mosquitto: register write 19
+2025-06-05 17:47:56.527 DEBUG (MainThread) [homeassistant.components.mqtt.client] Subscribing with mid: 10 to topics with qos: [('home/fan/+/config', 0)]
+2025-06-05 17:47:56.527 DEBUG (MainThread) [homeassistant.components.mqtt.client] mosquitto: unregister write 19
+2025-06-05 17:47:56.527 DEBUG (MainThread) [homeassistant.components.mqtt.client] mosquitto: register write 19
+2025-06-05 17:47:56.527 DEBUG (MainThread) [homeassistant.components.mqtt.client] Subscribing with mid: 11 to topics with qos: [('home/humidifier/+/config', 0)]
+2025-06-05 17:47:56.528 DEBUG (MainThread) [homeassistant.components.mqtt.client] mosquitto: unregister write 19
+2025-06-05 17:47:56.528 DEBUG (MainThread) [homeassistant.components.mqtt.client] mosquitto: register write 19
+2025-06-05 17:47:56.528 DEBUG (MainThread) [homeassistant.components.mqtt.client] Subscribing with mid: 12 to topics with qos: [('home/image/+/config', 0)]
+2025-06-05 17:47:56.528 DEBUG (MainThread) [homeassistant.components.mqtt.client] mosquitto: unregister write 19
+2025-06-05 17:47:56.529 DEBUG (MainThread) [homeassistant.components.mqtt.client] mosquitto: register write 19
+2025-06-05 17:47:56.529 DEBUG (MainThread) [homeassistant.components.mqtt.client] Subscribing with mid: 13 to topics with qos: [('home/lawn_mower/+/config', 0)]
+2025-06-05 17:47:56.529 DEBUG (MainThread) [homeassistant.components.mqtt.client] mosquitto: unregister write 19
+2025-06-05 17:47:56.530 DEBUG (MainThread) [homeassistant.components.mqtt.client] mosquitto: register write 19
+2025-06-05 17:47:56.530 DEBUG (MainThread) [homeassistant.components.mqtt.client] Subscribing with mid: 14 to topics with qos: [('home/light/+/config', 0)]
+2025-06-05 17:47:56.530 DEBUG (MainThread) [homeassistant.components.mqtt.client] mosquitto: unregister write 19
+2025-06-05 17:47:56.531 DEBUG (MainThread) [homeassistant.components.mqtt.client] mosquitto: register write 19
+2025-06-05 17:47:56.531 DEBUG (MainThread) [homeassistant.components.mqtt.client] Subscribing with mid: 15 to topics with qos: [('home/lock/+/config', 0)]
+2025-06-05 17:47:56.531 DEBUG (MainThread) [homeassistant.components.mqtt.client] mosquitto: unregister write 19
+2025-06-05 17:47:56.531 DEBUG (MainThread) [homeassistant.components.mqtt.client] mosquitto: register write 19
+2025-06-05 17:47:56.531 DEBUG (MainThread) [homeassistant.components.mqtt.client] Subscribing with mid: 16 to topics with qos: [('home/notify/+/config', 0)]
+2025-06-05 17:47:56.531 DEBUG (MainThread) [homeassistant.components.mqtt.client] mosquitto: unregister write 19
+2025-06-05 17:47:56.532 DEBUG (MainThread) [homeassistant.components.mqtt.client] mosquitto: register write 19
+2025-06-05 17:47:56.532 DEBUG (MainThread) [homeassistant.components.mqtt.client] Subscribing with mid: 17 to topics with qos: [('home/number/+/config', 0)]
+2025-06-05 17:47:56.532 DEBUG (MainThread) [homeassistant.components.mqtt.client] mosquitto: unregister write 19
+2025-06-05 17:47:56.532 DEBUG (MainThread) [homeassistant.components.mqtt.client] mosquitto: register write 19
+2025-06-05 17:47:56.532 DEBUG (MainThread) [homeassistant.components.mqtt.client] Subscribing with mid: 18 to topics with qos: [('home/scene/+/config', 0)]
+2025-06-05 17:47:56.533 DEBUG (MainThread) [homeassistant.components.mqtt.client] mosquitto: unregister write 19
+2025-06-05 17:47:56.533 DEBUG (MainThread) [homeassistant.components.mqtt.client] mosquitto: register write 19
+2025-06-05 17:47:56.533 DEBUG (MainThread) [homeassistant.components.mqtt.client] Subscribing with mid: 19 to topics with qos: [('home/siren/+/config', 0)]
+2025-06-05 17:47:56.533 DEBUG (MainThread) [homeassistant.components.mqtt.client] mosquitto: unregister write 19
+2025-06-05 17:47:56.533 DEBUG (MainThread) [homeassistant.components.mqtt.client] mosquitto: register write 19
+2025-06-05 17:47:56.534 DEBUG (MainThread) [homeassistant.components.mqtt.client] Subscribing with mid: 20 to topics with qos: [('home/select/+/config', 0)]
+2025-06-05 17:47:56.534 DEBUG (MainThread) [homeassistant.components.mqtt.client] mosquitto: unregister write 19
+2025-06-05 17:47:56.534 DEBUG (MainThread) [homeassistant.components.mqtt.client] mosquitto: register write 19
+2025-06-05 17:47:56.534 DEBUG (MainThread) [homeassistant.components.mqtt.client] Subscribing with mid: 21 to topics with qos: [('home/sensor/+/config', 0)]
+2025-06-05 17:47:56.534 DEBUG (MainThread) [homeassistant.components.mqtt.client] mosquitto: unregister write 19
+2025-06-05 17:47:56.535 DEBUG (MainThread) [homeassistant.components.mqtt.client] mosquitto: register write 19
+2025-06-05 17:47:56.535 DEBUG (MainThread) [homeassistant.components.mqtt.client] Subscribing with mid: 22 to topics with qos: [('home/switch/+/config', 0)]
+2025-06-05 17:47:56.535 DEBUG (MainThread) [homeassistant.components.mqtt.client] mosquitto: unregister write 19
+2025-06-05 17:47:56.535 DEBUG (MainThread) [homeassistant.components.mqtt.client] mosquitto: register write 19
+2025-06-05 17:47:56.535 DEBUG (MainThread) [homeassistant.components.mqtt.client] Subscribing with mid: 23 to topics with qos: [('home/tag/+/config', 0)]
+2025-06-05 17:47:56.535 DEBUG (MainThread) [homeassistant.components.mqtt.client] mosquitto: unregister write 19
+2025-06-05 17:47:56.536 DEBUG (MainThread) [homeassistant.components.mqtt.client] mosquitto: register write 19
+2025-06-05 17:47:56.536 DEBUG (MainThread) [homeassistant.components.mqtt.client] Subscribing with mid: 24 to topics with qos: [('home/text/+/config', 0)]
+2025-06-05 17:47:56.536 DEBUG (MainThread) [homeassistant.components.mqtt.client] mosquitto: unregister write 19
+2025-06-05 17:47:56.536 DEBUG (MainThread) [homeassistant.components.mqtt.client] mosquitto: register write 19
+2025-06-05 17:47:56.537 DEBUG (MainThread) [homeassistant.components.mqtt.client] Subscribing with mid: 25 to topics with qos: [('home/update/+/config', 0)]
+2025-06-05 17:47:56.537 DEBUG (MainThread) [homeassistant.components.mqtt.client] mosquitto: unregister write 19
+2025-06-05 17:47:56.537 DEBUG (MainThread) [homeassistant.components.mqtt.client] mosquitto: register write 19
+2025-06-05 17:47:56.537 DEBUG (MainThread) [homeassistant.components.mqtt.client] Subscribing with mid: 26 to topics with qos: [('home/vacuum/+/config', 0)]
+2025-06-05 17:47:56.537 DEBUG (MainThread) [homeassistant.components.mqtt.client] mosquitto: unregister write 19
+2025-06-05 17:47:56.537 DEBUG (MainThread) [homeassistant.components.mqtt.client] mosquitto: register write 19
+2025-06-05 17:47:56.537 DEBUG (MainThread) [homeassistant.components.mqtt.client] Subscribing with mid: 27 to topics with qos: [('home/valve/+/config', 0)]
+2025-06-05 17:47:56.538 DEBUG (MainThread) [homeassistant.components.mqtt.client] mosquitto: unregister write 19
+2025-06-05 17:47:56.538 DEBUG (MainThread) [homeassistant.components.mqtt.client] mosquitto: register write 19
+2025-06-05 17:47:56.538 DEBUG (MainThread) [homeassistant.components.mqtt.client] Subscribing with mid: 28 to topics with qos: [('home/water_heater/+/config', 0)]
+2025-06-05 17:47:56.538 DEBUG (MainThread) [homeassistant.components.mqtt.client] mosquitto: unregister write 19
+2025-06-05 17:47:56.538 DEBUG (MainThread) [homeassistant.components.mqtt.client] mosquitto: register write 19
+2025-06-05 17:47:56.538 DEBUG (MainThread) [homeassistant.components.mqtt.client] Subscribing with mid: 29 to topics with qos: [('home/alarm_control_panel/+/+/config', 0)]
+2025-06-05 17:47:56.539 DEBUG (MainThread) [homeassistant.components.mqtt.client] mosquitto: unregister write 19
+2025-06-05 17:47:56.539 DEBUG (MainThread) [homeassistant.components.mqtt.client] mosquitto: register write 19
+2025-06-05 17:47:56.539 DEBUG (MainThread) [homeassistant.components.mqtt.client] Subscribing with mid: 30 to topics with qos: [('home/binary_sensor/+/+/config', 0)]
+2025-06-05 17:47:56.539 DEBUG (MainThread) [homeassistant.components.mqtt.client] mosquitto: unregister write 19
+2025-06-05 17:47:56.539 DEBUG (MainThread) [homeassistant.components.mqtt.client] mosquitto: register write 19
+2025-06-05 17:47:56.539 DEBUG (MainThread) [homeassistant.components.mqtt.client] Subscribing with mid: 31 to topics with qos: [('home/button/+/+/config', 0)]
+2025-06-05 17:47:56.540 DEBUG (MainThread) [homeassistant.components.mqtt.client] mosquitto: unregister write 19
+2025-06-05 17:47:56.540 DEBUG (MainThread) [homeassistant.components.mqtt.client] mosquitto: register write 19
+2025-06-05 17:47:56.540 DEBUG (MainThread) [homeassistant.components.mqtt.client] Subscribing with mid: 32 to topics with qos: [('home/camera/+/+/config', 0)]
+2025-06-05 17:47:56.540 DEBUG (MainThread) [homeassistant.components.mqtt.client] mosquitto: unregister write 19
+2025-06-05 17:47:56.541 DEBUG (MainThread) [homeassistant.components.mqtt.client] mosquitto: register write 19
+2025-06-05 17:47:56.541 DEBUG (MainThread) [homeassistant.components.mqtt.client] Subscribing with mid: 33 to topics with qos: [('home/climate/+/+/config', 0)]
+2025-06-05 17:47:56.541 DEBUG (MainThread) [homeassistant.components.mqtt.client] mosquitto: unregister write 19
+2025-06-05 17:47:56.541 DEBUG (MainThread) [homeassistant.components.mqtt.client] mosquitto: register write 19
+2025-06-05 17:47:56.541 DEBUG (MainThread) [homeassistant.components.mqtt.client] Subscribing with mid: 34 to topics with qos: [('home/cover/+/+/config', 0)]
+2025-06-05 17:47:56.541 DEBUG (MainThread) [homeassistant.components.mqtt.client] mosquitto: unregister write 19
+2025-06-05 17:47:56.542 DEBUG (MainThread) [homeassistant.components.mqtt.client] mosquitto: register write 19
+2025-06-05 17:47:56.542 DEBUG (MainThread) [homeassistant.components.mqtt.client] Subscribing with mid: 35 to topics with qos: [('home/device_automation/+/+/config', 0)]
+2025-06-05 17:47:56.542 DEBUG (MainThread) [homeassistant.components.mqtt.client] mosquitto: unregister write 19
+2025-06-05 17:47:56.542 DEBUG (MainThread) [homeassistant.components.mqtt.client] mosquitto: register write 19
+2025-06-05 17:47:56.542 DEBUG (MainThread) [homeassistant.components.mqtt.client] Subscribing with mid: 36 to topics with qos: [('home/device_tracker/+/+/config', 0)]
+2025-06-05 17:47:56.543 DEBUG (MainThread) [homeassistant.components.mqtt.client] mosquitto: unregister write 19
+2025-06-05 17:47:56.543 DEBUG (MainThread) [homeassistant.components.mqtt.client] mosquitto: register write 19
+2025-06-05 17:47:56.543 DEBUG (MainThread) [homeassistant.components.mqtt.client] Subscribing with mid: 37 to topics with qos: [('home/event/+/+/config', 0)]
+2025-06-05 17:47:56.543 DEBUG (MainThread) [homeassistant.components.mqtt.client] mosquitto: unregister write 19
+2025-06-05 17:47:56.543 DEBUG (MainThread) [homeassistant.components.mqtt.client] mosquitto: register write 19
+2025-06-05 17:47:56.543 DEBUG (MainThread) [homeassistant.components.mqtt.client] Subscribing with mid: 38 to topics with qos: [('home/fan/+/+/config', 0)]
+2025-06-05 17:47:56.543 DEBUG (MainThread) [homeassistant.components.mqtt.client] mosquitto: unregister write 19
+2025-06-05 17:47:56.544 DEBUG (MainThread) [homeassistant.components.mqtt.client] mosquitto: register write 19
+2025-06-05 17:47:56.544 DEBUG (MainThread) [homeassistant.components.mqtt.client] Subscribing with mid: 39 to topics with qos: [('home/humidifier/+/+/config', 0)]
+2025-06-05 17:47:56.544 DEBUG (MainThread) [homeassistant.components.mqtt.client] mosquitto: unregister write 19
+2025-06-05 17:47:56.544 DEBUG (MainThread) [homeassistant.components.mqtt.client] mosquitto: register write 19
+2025-06-05 17:47:56.544 DEBUG (MainThread) [homeassistant.components.mqtt.client] Subscribing with mid: 40 to topics with qos: [('home/image/+/+/config', 0)]
+2025-06-05 17:47:56.545 DEBUG (MainThread) [homeassistant.components.mqtt.client] mosquitto: unregister write 19
+2025-06-05 17:47:56.545 DEBUG (MainThread) [homeassistant.components.mqtt.client] mosquitto: register write 19
+2025-06-05 17:47:56.545 DEBUG (MainThread) [homeassistant.components.mqtt.client] Subscribing with mid: 41 to topics with qos: [('home/lawn_mower/+/+/config', 0)]
+2025-06-05 17:47:56.545 DEBUG (MainThread) [homeassistant.components.mqtt.client] mosquitto: unregister write 19
+2025-06-05 17:47:56.546 DEBUG (MainThread) [homeassistant.components.mqtt.client] mosquitto: register write 19
+2025-06-05 17:47:56.546 DEBUG (MainThread) [homeassistant.components.mqtt.client] Subscribing with mid: 42 to topics with qos: [('home/light/+/+/config', 0)]
+2025-06-05 17:47:56.546 DEBUG (MainThread) [homeassistant.components.mqtt.client] mosquitto: unregister write 19
+2025-06-05 17:47:56.546 DEBUG (MainThread) [homeassistant.components.mqtt.client] mosquitto: register write 19
+2025-06-05 17:47:56.546 DEBUG (MainThread) [homeassistant.components.mqtt.client] Subscribing with mid: 43 to topics with qos: [('home/lock/+/+/config', 0)]
+2025-06-05 17:47:56.547 DEBUG (MainThread) [homeassistant.components.mqtt.client] mosquitto: unregister write 19
+2025-06-05 17:47:56.547 DEBUG (MainThread) [homeassistant.components.mqtt.client] mosquitto: register write 19
+2025-06-05 17:47:56.547 DEBUG (MainThread) [homeassistant.components.mqtt.client] Subscribing with mid: 44 to topics with qos: [('home/notify/+/+/config', 0)]
+2025-06-05 17:47:56.547 DEBUG (MainThread) [homeassistant.components.mqtt.client] mosquitto: unregister write 19
+2025-06-05 17:47:56.547 DEBUG (MainThread) [homeassistant.components.mqtt.client] mosquitto: register write 19
+2025-06-05 17:47:56.547 DEBUG (MainThread) [homeassistant.components.mqtt.client] Subscribing with mid: 45 to topics with qos: [('home/number/+/+/config', 0)]
+2025-06-05 17:47:56.547 DEBUG (MainThread) [homeassistant.components.mqtt.client] mosquitto: unregister write 19
+2025-06-05 17:47:56.547 DEBUG (MainThread) [homeassistant.components.mqtt.client] mosquitto: register write 19
+2025-06-05 17:47:56.548 DEBUG (MainThread) [homeassistant.components.mqtt.client] Subscribing with mid: 46 to topics with qos: [('home/scene/+/+/config', 0)]
+2025-06-05 17:47:56.548 DEBUG (MainThread) [homeassistant.components.mqtt.client] mosquitto: unregister write 19
+2025-06-05 17:47:56.548 DEBUG (MainThread) [homeassistant.components.mqtt.client] mosquitto: register write 19
+2025-06-05 17:47:56.548 DEBUG (MainThread) [homeassistant.components.mqtt.client] Subscribing with mid: 47 to topics with qos: [('home/siren/+/+/config', 0)]
+2025-06-05 17:47:56.548 DEBUG (MainThread) [homeassistant.components.mqtt.client] mosquitto: unregister write 19
+2025-06-05 17:47:56.548 DEBUG (MainThread) [homeassistant.components.mqtt.client] mosquitto: register write 19
+2025-06-05 17:47:56.548 DEBUG (MainThread) [homeassistant.components.mqtt.client] Subscribing with mid: 48 to topics with qos: [('home/select/+/+/config', 0)]
+2025-06-05 17:47:56.548 DEBUG (MainThread) [homeassistant.components.mqtt.client] mosquitto: unregister write 19
+2025-06-05 17:47:56.549 DEBUG (MainThread) [homeassistant.components.mqtt.client] mosquitto: register write 19
+2025-06-05 17:47:56.549 DEBUG (MainThread) [homeassistant.components.mqtt.client] Subscribing with mid: 49 to topics with qos: [('home/sensor/+/+/config', 0)]
+2025-06-05 17:47:56.549 DEBUG (MainThread) [homeassistant.components.mqtt.client] mosquitto: unregister write 19
+2025-06-05 17:47:56.549 DEBUG (MainThread) [homeassistant.components.mqtt.client] mosquitto: register write 19
+2025-06-05 17:47:56.549 DEBUG (MainThread) [homeassistant.components.mqtt.client] Subscribing with mid: 50 to topics with qos: [('home/switch/+/+/config', 0)]
+2025-06-05 17:47:56.550 DEBUG (MainThread) [homeassistant.components.mqtt.client] mosquitto: unregister write 19
+2025-06-05 17:47:56.550 DEBUG (MainThread) [homeassistant.components.mqtt.client] mosquitto: register write 19
+2025-06-05 17:47:56.550 DEBUG (MainThread) [homeassistant.components.mqtt.client] Subscribing with mid: 51 to topics with qos: [('home/tag/+/+/config', 0)]
+2025-06-05 17:47:56.550 DEBUG (MainThread) [homeassistant.components.mqtt.client] mosquitto: unregister write 19
+2025-06-05 17:47:56.550 DEBUG (MainThread) [homeassistant.components.mqtt.client] mosquitto: register write 19
+2025-06-05 17:47:56.550 DEBUG (MainThread) [homeassistant.components.mqtt.client] Subscribing with mid: 52 to topics with qos: [('home/text/+/+/config', 0)]
+2025-06-05 17:47:56.550 DEBUG (MainThread) [homeassistant.components.mqtt.client] mosquitto: unregister write 19
+2025-06-05 17:47:56.550 DEBUG (MainThread) [homeassistant.components.mqtt.client] mosquitto: register write 19
+2025-06-05 17:47:56.551 DEBUG (MainThread) [homeassistant.components.mqtt.client] Subscribing with mid: 53 to topics with qos: [('home/update/+/+/config', 0)]
+2025-06-05 17:47:56.551 DEBUG (MainThread) [homeassistant.components.mqtt.client] mosquitto: unregister write 19
+2025-06-05 17:47:56.551 DEBUG (MainThread) [homeassistant.components.mqtt.client] mosquitto: register write 19
+2025-06-05 17:47:56.551 DEBUG (MainThread) [homeassistant.components.mqtt.client] Subscribing with mid: 54 to topics with qos: [('home/vacuum/+/+/config', 0)]
+2025-06-05 17:47:56.551 DEBUG (MainThread) [homeassistant.components.mqtt.client] mosquitto: unregister write 19
+2025-06-05 17:47:56.551 DEBUG (MainThread) [homeassistant.components.mqtt.client] mosquitto: register write 19
+2025-06-05 17:47:56.551 DEBUG (MainThread) [homeassistant.components.mqtt.client] Subscribing with mid: 55 to topics with qos: [('home/valve/+/+/config', 0)]
+2025-06-05 17:47:56.551 DEBUG (MainThread) [homeassistant.components.mqtt.client] mosquitto: unregister write 19
+2025-06-05 17:47:56.552 DEBUG (MainThread) [homeassistant.components.mqtt.client] mosquitto: register write 19
+2025-06-05 17:47:56.552 DEBUG (MainThread) [homeassistant.components.mqtt.client] Subscribing with mid: 56 to topics with qos: [('home/water_heater/+/+/config', 0)]
+2025-06-05 17:47:56.552 DEBUG (MainThread) [homeassistant.components.mqtt.client] mosquitto: unregister write 19
+2025-06-05 17:47:56.553 DEBUG (MainThread) [homeassistant.components.mqtt.client] mosquitto: register write 19
+2025-06-05 17:47:56.553 DEBUG (MainThread) [homeassistant.components.mqtt.client] Subscribing with mid: 57 to topics with qos: [('home/device/+/config', 0)]
+2025-06-05 17:47:56.553 DEBUG (MainThread) [homeassistant.components.mqtt.client] mosquitto: unregister write 19
+2025-06-05 17:47:56.553 DEBUG (MainThread) [homeassistant.components.mqtt.client] mosquitto: register write 19
+2025-06-05 17:47:56.553 DEBUG (MainThread) [homeassistant.components.mqtt.client] Subscribing with mid: 58 to topics with qos: [('home/device/+/+/config', 0)]
+2025-06-05 17:47:56.553 DEBUG (MainThread) [homeassistant.components.mqtt.client] mosquitto: unregister write 19
+2025-06-05 17:47:56.554 DEBUG (MainThread) [homeassistant.components.mqtt.client] mosquitto: register write 19
+2025-06-05 17:47:56.554 DEBUG (MainThread) [homeassistant.components.mqtt.client] Subscribing with mid: 59 to topics with qos: [('drop_connect/discovery/#', 0)]
+2025-06-05 17:47:56.554 DEBUG (MainThread) [homeassistant.components.mqtt.client] mosquitto: unregister write 19
+2025-06-05 17:47:56.555 DEBUG (MainThread) [homeassistant.components.mqtt.client] mosquitto: register write 19
+2025-06-05 17:47:56.555 DEBUG (MainThread) [homeassistant.components.mqtt.client] Subscribing with mid: 60 to topics with qos: [('dsmr/#', 0)]
+2025-06-05 17:47:56.555 DEBUG (MainThread) [homeassistant.components.mqtt.client] mosquitto: unregister write 19
+2025-06-05 17:47:56.556 DEBUG (MainThread) [homeassistant.components.mqtt.client] mosquitto: register write 19
+2025-06-05 17:47:56.556 DEBUG (MainThread) [homeassistant.components.mqtt.client] Subscribing with mid: 61 to topics with qos: [('esphome/discover/#', 0)]
+2025-06-05 17:47:56.556 DEBUG (MainThread) [homeassistant.components.mqtt.client] mosquitto: unregister write 19
+2025-06-05 17:47:56.556 DEBUG (MainThread) [homeassistant.components.mqtt.client] mosquitto: register write 19
+2025-06-05 17:47:56.556 DEBUG (MainThread) [homeassistant.components.mqtt.client] Subscribing with mid: 62 to topics with qos: [('fully/deviceInfo/+', 0)]
+2025-06-05 17:47:56.556 DEBUG (MainThread) [homeassistant.components.mqtt.client] mosquitto: unregister write 19
+2025-06-05 17:47:56.556 DEBUG (MainThread) [homeassistant.components.mqtt.client] mosquitto: register write 19
+2025-06-05 17:47:56.556 DEBUG (MainThread) [homeassistant.components.mqtt.client] Subscribing with mid: 63 to topics with qos: [('pglab/discovery/#', 0)]
+2025-06-05 17:47:56.557 DEBUG (MainThread) [homeassistant.components.mqtt.client] mosquitto: unregister write 19
+2025-06-05 17:47:56.557 DEBUG (MainThread) [homeassistant.components.mqtt.client] mosquitto: register write 19
+2025-06-05 17:47:56.557 DEBUG (MainThread) [homeassistant.components.mqtt.client] Subscribing with mid: 64 to topics with qos: [('cloudapp/QBUSMQTTGW/+/state', 0)]
+2025-06-05 17:47:56.557 DEBUG (MainThread) [homeassistant.components.mqtt.client] mosquitto: unregister write 19
+2025-06-05 17:47:56.558 DEBUG (MainThread) [homeassistant.components.mqtt.client] mosquitto: register write 19
+2025-06-05 17:47:56.558 DEBUG (MainThread) [homeassistant.components.mqtt.client] Subscribing with mid: 65 to topics with qos: [('tasmota/discovery/#', 0)]
+2025-06-05 17:47:56.558 DEBUG (MainThread) [homeassistant.components.mqtt.client] mosquitto: unregister write 19
+2025-06-05 17:47:56.558 DEBUG (MainThread) [homeassistant.components.mqtt.client] mosquitto: register write 19
+2025-06-05 17:47:56.558 DEBUG (MainThread) [homeassistant.components.mqtt.client] Subscribing with mid: 66 to topics with qos: [('cloudapp/QBUSMQTTGW/config', 0), ('cloudapp/QBUSMQTTGW/state', 0)]
+2025-06-05 17:47:56.558 DEBUG (MainThread) [homeassistant.components.mqtt.client] mosquitto: unregister write 19
+2025-06-05 17:47:59.972 DEBUG (MainThread) [homeassistant.components.mqtt.client] mosquitto: register write 19
+2025-06-05 17:47:59.972 DEBUG (MainThread) [homeassistant.components.mqtt.client] Unsubscribing with mid: 67 to topics: ['home/image/+/config', 'home/sensor/+/+/config', 'home/number/+/+/config', 'home/button/+/config', 'home/device_automation/+/config', 'home/tag/+/config', 'home/button/+/+/config', 'home/device_tracker/+/config', 'home/fan/+/+/config', 'home/climate/+/config', 'home/number/+/config', 'home/lock/+/+/config', 'home/update/+/+/config', 'home/fan/+/config', 'cloudapp/QBUSMQTTGW/state', 'home/binary_sensor/+/config', 'home/climate/+/+/config', 'home/camera/+/config', 'home/text/+/config', 'home/binary_sensor/+/+/config', 'home/siren/+/+/config', 'home/cover/+/config', 'home/event/+/+/config', 'home/scene/+/+/config', 'home/valve/+/+/config', 'home/select/+/config', 'home/device_tracker/+/+/config', 'home/light/+/+/config', 'drop_connect/discovery/#', 'home/lawn_mower/+/config', 'home/humidifier/+/+/config', 'home/valve/+/config', 'home/lock/+/config', 'home/image/+/+/config', 'home/alarm_control_panel/+/+/config', 'pglab/discovery/#', 'home/switch/+/config', 'home/device/+/config', 'home/device/+/+/config', 'home/humidifier/+/config', 'home/siren/+/config', 'home/sensor/+/config', 'home/vacuum/+/+/config', 'home/camera/+/+/config', 'home/notify/+/config', 'home/notify/+/+/config', 'tasmota/discovery/#', 'home/water_heater/+/config', 'home/text/+/+/config', 'esphome/discover/#', 'cloudapp/QBUSMQTTGW/+/state', 'home/event/+/config', 'home/scene/+/config', 'home/alarm_control_panel/+/config', 'home/light/+/config', 'home/device_automation/+/+/config', 'home/tag/+/+/config', 'home/switch/+/+/config', 'cloudapp/QBUSMQTTGW/config', 'dsmr/#', 'home/select/+/+/config', 'home/cover/+/+/config', 'home/vacuum/+/config', 'fully/deviceInfo/+', 'home/update/+/config', 'home/water_heater/+/+/config', 'home/lawn_mower/+/+/config']
+2025-06-05 17:47:59.972 DEBUG (MainThread) [homeassistant.components.mqtt.client] mosquitto: unregister write 19
+2025-06-05 17:47:59.973 DEBUG (MainThread) [homeassistant.components.mqtt.client] mosquitto: register write 19
+2025-06-05 17:47:59.974 INFO (MainThread) [homeassistant.components.mqtt.client] Disconnected from MQTT server mosquitto:1883 (Normal disconnection)
+2025-06-05 17:47:59.974 DEBUG (MainThread) [homeassistant.components.mqtt.client] mosquitto: unregister write 19
+2025-06-05 17:47:59.974 DEBUG (MainThread) [homeassistant.components.mqtt.client] mosquitto: connection closed 19
+2025-06-05 17:47:59.980 DEBUG (MainThread) [homeassistant.components.mqtt.client] mosquitto: connection opened 19
+2025-06-05 17:47:59.981 DEBUG (MainThread) [homeassistant.components.mqtt.client] mosquitto: Starting client misc loop
+2025-06-05 17:47:59.981 DEBUG (MainThread) [homeassistant.components.mqtt.client] mosquitto: register write 19
+2025-06-05 17:47:59.983 DEBUG (MainThread) [homeassistant.components.mqtt.client] mosquitto: unregister write 19
+2025-06-05 17:47:59.984 DEBUG (MainThread) [homeassistant.components.mqtt.client] Connected to MQTT server mosquitto:1883 (Success)
+2025-06-05 17:48:00.487 DEBUG (MainThread) [homeassistant.components.mqtt.client] mosquitto: register write 19
+2025-06-05 17:48:00.487 DEBUG (MainThread) [homeassistant.components.mqtt.client] Subscribing with mid: 1 to topics with qos: [('home/alarm_control_panel/+/config', 0)]
+2025-06-05 17:48:00.488 DEBUG (MainThread) [homeassistant.components.mqtt.client] mosquitto: unregister write 19
+2025-06-05 17:48:00.489 DEBUG (MainThread) [homeassistant.components.mqtt.client] mosquitto: register write 19
+2025-06-05 17:48:00.489 DEBUG (MainThread) [homeassistant.components.mqtt.client] Subscribing with mid: 2 to topics with qos: [('home/binary_sensor/+/config', 0)]
+2025-06-05 17:48:00.489 DEBUG (MainThread) [homeassistant.components.mqtt.client] mosquitto: unregister write 19
+2025-06-05 17:48:00.490 DEBUG (MainThread) [homeassistant.components.mqtt.client] mosquitto: register write 19
+2025-06-05 17:48:00.490 DEBUG (MainThread) [homeassistant.components.mqtt.client] Subscribing with mid: 3 to topics with qos: [('home/button/+/config', 0)]
+2025-06-05 17:48:00.491 DEBUG (MainThread) [homeassistant.components.mqtt.client] mosquitto: unregister write 19
+2025-06-05 17:48:00.491 DEBUG (MainThread) [homeassistant.components.mqtt.client] mosquitto: register write 19
+2025-06-05 17:48:00.491 DEBUG (MainThread) [homeassistant.components.mqtt.client] Subscribing with mid: 4 to topics with qos: [('home/camera/+/config', 0)]
+2025-06-05 17:48:00.491 DEBUG (MainThread) [homeassistant.components.mqtt.client] mosquitto: unregister write 19
+2025-06-05 17:48:00.492 DEBUG (MainThread) [homeassistant.components.mqtt.client] mosquitto: register write 19
+2025-06-05 17:48:00.492 DEBUG (MainThread) [homeassistant.components.mqtt.client] Subscribing with mid: 5 to topics with qos: [('home/climate/+/config', 0)]
+2025-06-05 17:48:00.492 DEBUG (MainThread) [homeassistant.components.mqtt.client] mosquitto: unregister write 19
+2025-06-05 17:48:00.492 DEBUG (MainThread) [homeassistant.components.mqtt.client] mosquitto: register write 19
+2025-06-05 17:48:00.492 DEBUG (MainThread) [homeassistant.components.mqtt.client] Subscribing with mid: 6 to topics with qos: [('home/cover/+/config', 0)]
+2025-06-05 17:48:00.493 DEBUG (MainThread) [homeassistant.components.mqtt.client] mosquitto: unregister write 19
+2025-06-05 17:48:00.493 DEBUG (MainThread) [homeassistant.components.mqtt.client] mosquitto: register write 19
+2025-06-05 17:48:00.493 DEBUG (MainThread) [homeassistant.components.mqtt.client] Subscribing with mid: 7 to topics with qos: [('home/device_automation/+/config', 0)]
+2025-06-05 17:48:00.494 DEBUG (MainThread) [homeassistant.components.mqtt.client] mosquitto: unregister write 19
+2025-06-05 17:48:00.494 DEBUG (MainThread) [homeassistant.components.mqtt.client] mosquitto: register write 19
+2025-06-05 17:48:00.495 DEBUG (MainThread) [homeassistant.components.mqtt.client] Subscribing with mid: 8 to topics with qos: [('home/device_tracker/+/config', 0)]
+2025-06-05 17:48:00.495 DEBUG (MainThread) [homeassistant.components.mqtt.client] mosquitto: unregister write 19
+2025-06-05 17:48:00.496 DEBUG (MainThread) [homeassistant.components.mqtt.client] mosquitto: register write 19
+2025-06-05 17:48:00.496 DEBUG (MainThread) [homeassistant.components.mqtt.client] Subscribing with mid: 9 to topics with qos: [('home/event/+/config', 0)]
+2025-06-05 17:48:00.496 DEBUG (MainThread) [homeassistant.components.mqtt.client] mosquitto: unregister write 19
+2025-06-05 17:48:00.497 DEBUG (MainThread) [homeassistant.components.mqtt.client] mosquitto: register write 19
+2025-06-05 17:48:00.497 DEBUG (MainThread) [homeassistant.components.mqtt.client] Subscribing with mid: 10 to topics with qos: [('home/fan/+/config', 0)]
+2025-06-05 17:48:00.497 DEBUG (MainThread) [homeassistant.components.mqtt.client] mosquitto: unregister write 19
+2025-06-05 17:48:00.498 DEBUG (MainThread) [homeassistant.components.mqtt.client] mosquitto: register write 19
+2025-06-05 17:48:00.498 DEBUG (MainThread) [homeassistant.components.mqtt.client] Subscribing with mid: 11 to topics with qos: [('home/humidifier/+/config', 0)]
+2025-06-05 17:48:00.498 DEBUG (MainThread) [homeassistant.components.mqtt.client] mosquitto: unregister write 19
+2025-06-05 17:48:00.498 DEBUG (MainThread) [homeassistant.components.mqtt.client] mosquitto: register write 19
+2025-06-05 17:48:00.498 DEBUG (MainThread) [homeassistant.components.mqtt.client] Subscribing with mid: 12 to topics with qos: [('home/image/+/config', 0)]
+2025-06-05 17:48:00.499 DEBUG (MainThread) [homeassistant.components.mqtt.client] mosquitto: unregister write 19
+2025-06-05 17:48:00.499 DEBUG (MainThread) [homeassistant.components.mqtt.client] mosquitto: register write 19
+2025-06-05 17:48:00.499 DEBUG (MainThread) [homeassistant.components.mqtt.client] Subscribing with mid: 13 to topics with qos: [('home/lawn_mower/+/config', 0)]
+2025-06-05 17:48:00.499 DEBUG (MainThread) [homeassistant.components.mqtt.client] mosquitto: unregister write 19
+2025-06-05 17:48:00.499 DEBUG (MainThread) [homeassistant.components.mqtt.client] mosquitto: register write 19
+2025-06-05 17:48:00.499 DEBUG (MainThread) [homeassistant.components.mqtt.client] Subscribing with mid: 14 to topics with qos: [('home/light/+/config', 0)]
+2025-06-05 17:48:00.500 DEBUG (MainThread) [homeassistant.components.mqtt.client] mosquitto: unregister write 19
+2025-06-05 17:48:00.500 DEBUG (MainThread) [homeassistant.components.mqtt.client] mosquitto: register write 19
+2025-06-05 17:48:00.500 DEBUG (MainThread) [homeassistant.components.mqtt.client] Subscribing with mid: 15 to topics with qos: [('home/lock/+/config', 0)]
+2025-06-05 17:48:00.501 DEBUG (MainThread) [homeassistant.components.mqtt.client] mosquitto: unregister write 19
+2025-06-05 17:48:00.501 DEBUG (MainThread) [homeassistant.components.mqtt.client] mosquitto: register write 19
+2025-06-05 17:48:00.501 DEBUG (MainThread) [homeassistant.components.mqtt.client] Subscribing with mid: 16 to topics with qos: [('home/notify/+/config', 0)]
+2025-06-05 17:48:00.501 DEBUG (MainThread) [homeassistant.components.mqtt.client] mosquitto: unregister write 19
+2025-06-05 17:48:00.502 DEBUG (MainThread) [homeassistant.components.mqtt.client] mosquitto: register write 19
+2025-06-05 17:48:00.502 DEBUG (MainThread) [homeassistant.components.mqtt.client] Subscribing with mid: 17 to topics with qos: [('home/number/+/config', 0)]
+2025-06-05 17:48:00.502 DEBUG (MainThread) [homeassistant.components.mqtt.client] mosquitto: unregister write 19
+2025-06-05 17:48:00.503 DEBUG (MainThread) [homeassistant.components.mqtt.client] mosquitto: register write 19
+2025-06-05 17:48:00.503 DEBUG (MainThread) [homeassistant.components.mqtt.client] Subscribing with mid: 18 to topics with qos: [('home/scene/+/config', 0)]
+2025-06-05 17:48:00.503 DEBUG (MainThread) [homeassistant.components.mqtt.client] mosquitto: unregister write 19
+2025-06-05 17:48:00.503 DEBUG (MainThread) [homeassistant.components.mqtt.client] mosquitto: register write 19
+2025-06-05 17:48:00.503 DEBUG (MainThread) [homeassistant.components.mqtt.client] Subscribing with mid: 19 to topics with qos: [('home/siren/+/config', 0)]
+2025-06-05 17:48:00.503 DEBUG (MainThread) [homeassistant.components.mqtt.client] mosquitto: unregister write 19
+2025-06-05 17:48:00.504 DEBUG (MainThread) [homeassistant.components.mqtt.client] mosquitto: register write 19
+2025-06-05 17:48:00.504 DEBUG (MainThread) [homeassistant.components.mqtt.client] Subscribing with mid: 20 to topics with qos: [('home/select/+/config', 0)]
+2025-06-05 17:48:00.505 DEBUG (MainThread) [homeassistant.components.mqtt.client] mosquitto: unregister write 19
+2025-06-05 17:48:00.505 DEBUG (MainThread) [homeassistant.components.mqtt.client] mosquitto: register write 19
+2025-06-05 17:48:00.506 DEBUG (MainThread) [homeassistant.components.mqtt.client] Subscribing with mid: 21 to topics with qos: [('home/sensor/+/config', 0)]
+2025-06-05 17:48:00.506 DEBUG (MainThread) [homeassistant.components.mqtt.client] mosquitto: unregister write 19
+2025-06-05 17:48:00.507 DEBUG (MainThread) [homeassistant.components.mqtt.client] mosquitto: register write 19
+2025-06-05 17:48:00.507 DEBUG (MainThread) [homeassistant.components.mqtt.client] Subscribing with mid: 22 to topics with qos: [('home/switch/+/config', 0)]
+2025-06-05 17:48:00.507 DEBUG (MainThread) [homeassistant.components.mqtt.client] mosquitto: unregister write 19
+2025-06-05 17:48:00.508 DEBUG (MainThread) [homeassistant.components.mqtt.client] mosquitto: register write 19
+2025-06-05 17:48:00.508 DEBUG (MainThread) [homeassistant.components.mqtt.client] Subscribing with mid: 23 to topics with qos: [('home/tag/+/config', 0)]
+2025-06-05 17:48:00.508 DEBUG (MainThread) [homeassistant.components.mqtt.client] mosquitto: unregister write 19
+2025-06-05 17:48:00.509 DEBUG (MainThread) [homeassistant.components.mqtt.client] mosquitto: register write 19
+2025-06-05 17:48:00.509 DEBUG (MainThread) [homeassistant.components.mqtt.client] Subscribing with mid: 24 to topics with qos: [('home/text/+/config', 0)]
+2025-06-05 17:48:00.509 DEBUG (MainThread) [homeassistant.components.mqtt.client] mosquitto: unregister write 19
+2025-06-05 17:48:00.509 DEBUG (MainThread) [homeassistant.components.mqtt.client] mosquitto: register write 19
+2025-06-05 17:48:00.509 DEBUG (MainThread) [homeassistant.components.mqtt.client] Subscribing with mid: 25 to topics with qos: [('home/update/+/config', 0)]
+2025-06-05 17:48:00.510 DEBUG (MainThread) [homeassistant.components.mqtt.client] mosquitto: unregister write 19
+2025-06-05 17:48:00.510 DEBUG (MainThread) [homeassistant.components.mqtt.client] mosquitto: register write 19
+2025-06-05 17:48:00.510 DEBUG (MainThread) [homeassistant.components.mqtt.client] Subscribing with mid: 26 to topics with qos: [('home/vacuum/+/config', 0)]
+2025-06-05 17:48:00.510 DEBUG (MainThread) [homeassistant.components.mqtt.client] mosquitto: unregister write 19
+2025-06-05 17:48:00.510 DEBUG (MainThread) [homeassistant.components.mqtt.client] mosquitto: register write 19
+2025-06-05 17:48:00.510 DEBUG (MainThread) [homeassistant.components.mqtt.client] Subscribing with mid: 27 to topics with qos: [('home/valve/+/config', 0)]
+2025-06-05 17:48:00.510 DEBUG (MainThread) [homeassistant.components.mqtt.client] mosquitto: unregister write 19
+2025-06-05 17:48:00.511 DEBUG (MainThread) [homeassistant.components.mqtt.client] mosquitto: register write 19
+2025-06-05 17:48:00.511 DEBUG (MainThread) [homeassistant.components.mqtt.client] Subscribing with mid: 28 to topics with qos: [('home/water_heater/+/config', 0)]
+2025-06-05 17:48:00.511 DEBUG (MainThread) [homeassistant.components.mqtt.client] mosquitto: unregister write 19
+2025-06-05 17:48:00.511 DEBUG (MainThread) [homeassistant.components.mqtt.client] mosquitto: register write 19
+2025-06-05 17:48:00.511 DEBUG (MainThread) [homeassistant.components.mqtt.client] Subscribing with mid: 29 to topics with qos: [('home/alarm_control_panel/+/+/config', 0)]
+2025-06-05 17:48:00.512 DEBUG (MainThread) [homeassistant.components.mqtt.client] mosquitto: unregister write 19
+2025-06-05 17:48:00.512 DEBUG (MainThread) [homeassistant.components.mqtt.client] mosquitto: register write 19
+2025-06-05 17:48:00.512 DEBUG (MainThread) [homeassistant.components.mqtt.client] Subscribing with mid: 30 to topics with qos: [('home/binary_sensor/+/+/config', 0)]
+2025-06-05 17:48:00.512 DEBUG (MainThread) [homeassistant.components.mqtt.client] mosquitto: unregister write 19
+2025-06-05 17:48:00.512 DEBUG (MainThread) [homeassistant.components.mqtt.client] mosquitto: register write 19
+2025-06-05 17:48:00.513 DEBUG (MainThread) [homeassistant.components.mqtt.client] Subscribing with mid: 31 to topics with qos: [('home/button/+/+/config', 0)]
+2025-06-05 17:48:00.513 DEBUG (MainThread) [homeassistant.components.mqtt.client] mosquitto: unregister write 19
+2025-06-05 17:48:00.513 DEBUG (MainThread) [homeassistant.components.mqtt.client] mosquitto: register write 19
+2025-06-05 17:48:00.513 DEBUG (MainThread) [homeassistant.components.mqtt.client] Subscribing with mid: 32 to topics with qos: [('home/camera/+/+/config', 0)]
+2025-06-05 17:48:00.513 DEBUG (MainThread) [homeassistant.components.mqtt.client] mosquitto: unregister write 19
+2025-06-05 17:48:00.514 DEBUG (MainThread) [homeassistant.components.mqtt.client] mosquitto: register write 19
+2025-06-05 17:48:00.514 DEBUG (MainThread) [homeassistant.components.mqtt.client] Subscribing with mid: 33 to topics with qos: [('home/climate/+/+/config', 0)]
+2025-06-05 17:48:00.514 DEBUG (MainThread) [homeassistant.components.mqtt.client] mosquitto: unregister write 19
+2025-06-05 17:48:00.514 DEBUG (MainThread) [homeassistant.components.mqtt.client] mosquitto: register write 19
+2025-06-05 17:48:00.515 DEBUG (MainThread) [homeassistant.components.mqtt.client] Subscribing with mid: 34 to topics with qos: [('home/cover/+/+/config', 0)]
+2025-06-05 17:48:00.515 DEBUG (MainThread) [homeassistant.components.mqtt.client] mosquitto: unregister write 19
+2025-06-05 17:48:00.515 DEBUG (MainThread) [homeassistant.components.mqtt.client] mosquitto: register write 19
+2025-06-05 17:48:00.515 DEBUG (MainThread) [homeassistant.components.mqtt.client] Subscribing with mid: 35 to topics with qos: [('home/device_automation/+/+/config', 0)]
+2025-06-05 17:48:00.515 DEBUG (MainThread) [homeassistant.components.mqtt.client] mosquitto: unregister write 19
+2025-06-05 17:48:00.516 DEBUG (MainThread) [homeassistant.components.mqtt.client] mosquitto: register write 19
+2025-06-05 17:48:00.516 DEBUG (MainThread) [homeassistant.components.mqtt.client] Subscribing with mid: 36 to topics with qos: [('home/device_tracker/+/+/config', 0)]
+2025-06-05 17:48:00.516 DEBUG (MainThread) [homeassistant.components.mqtt.client] mosquitto: unregister write 19
+2025-06-05 17:48:00.516 DEBUG (MainThread) [homeassistant.components.mqtt.client] mosquitto: register write 19
+2025-06-05 17:48:00.516 DEBUG (MainThread) [homeassistant.components.mqtt.client] Subscribing with mid: 37 to topics with qos: [('home/event/+/+/config', 0)]
+2025-06-05 17:48:00.516 DEBUG (MainThread) [homeassistant.components.mqtt.client] mosquitto: unregister write 19
+2025-06-05 17:48:00.517 DEBUG (MainThread) [homeassistant.components.mqtt.client] mosquitto: register write 19
+2025-06-05 17:48:00.517 DEBUG (MainThread) [homeassistant.components.mqtt.client] Subscribing with mid: 38 to topics with qos: [('home/fan/+/+/config', 0)]
+2025-06-05 17:48:00.517 DEBUG (MainThread) [homeassistant.components.mqtt.client] mosquitto: unregister write 19
+2025-06-05 17:48:00.517 DEBUG (MainThread) [homeassistant.components.mqtt.client] mosquitto: register write 19
+2025-06-05 17:48:00.517 DEBUG (MainThread) [homeassistant.components.mqtt.client] Subscribing with mid: 39 to topics with qos: [('home/humidifier/+/+/config', 0)]
+2025-06-05 17:48:00.517 DEBUG (MainThread) [homeassistant.components.mqtt.client] mosquitto: unregister write 19
+2025-06-05 17:48:00.517 DEBUG (MainThread) [homeassistant.components.mqtt.client] mosquitto: register write 19
+2025-06-05 17:48:00.518 DEBUG (MainThread) [homeassistant.components.mqtt.client] Subscribing with mid: 40 to topics with qos: [('home/image/+/+/config', 0)]
+2025-06-05 17:48:00.518 DEBUG (MainThread) [homeassistant.components.mqtt.client] mosquitto: unregister write 19
+2025-06-05 17:48:00.518 DEBUG (MainThread) [homeassistant.components.mqtt.client] mosquitto: register write 19
+2025-06-05 17:48:00.518 DEBUG (MainThread) [homeassistant.components.mqtt.client] Subscribing with mid: 41 to topics with qos: [('home/lawn_mower/+/+/config', 0)]
+2025-06-05 17:48:00.518 DEBUG (MainThread) [homeassistant.components.mqtt.client] mosquitto: unregister write 19
+2025-06-05 17:48:00.519 DEBUG (MainThread) [homeassistant.components.mqtt.client] mosquitto: register write 19
+2025-06-05 17:48:00.519 DEBUG (MainThread) [homeassistant.components.mqtt.client] Subscribing with mid: 42 to topics with qos: [('home/light/+/+/config', 0)]
+2025-06-05 17:48:00.519 DEBUG (MainThread) [homeassistant.components.mqtt.client] mosquitto: unregister write 19
+2025-06-05 17:48:00.520 DEBUG (MainThread) [homeassistant.components.mqtt.client] mosquitto: register write 19
+2025-06-05 17:48:00.520 DEBUG (MainThread) [homeassistant.components.mqtt.client] Subscribing with mid: 43 to topics with qos: [('home/lock/+/+/config', 0)]
+2025-06-05 17:48:00.520 DEBUG (MainThread) [homeassistant.components.mqtt.client] mosquitto: unregister write 19
+2025-06-05 17:48:00.520 DEBUG (MainThread) [homeassistant.components.mqtt.client] mosquitto: register write 19
+2025-06-05 17:48:00.520 DEBUG (MainThread) [homeassistant.components.mqtt.client] Subscribing with mid: 44 to topics with qos: [('home/notify/+/+/config', 0)]
+2025-06-05 17:48:00.521 DEBUG (MainThread) [homeassistant.components.mqtt.client] mosquitto: unregister write 19
+2025-06-05 17:48:00.521 DEBUG (MainThread) [homeassistant.components.mqtt.client] mosquitto: register write 19
+2025-06-05 17:48:00.521 DEBUG (MainThread) [homeassistant.components.mqtt.client] Subscribing with mid: 45 to topics with qos: [('home/number/+/+/config', 0)]
+2025-06-05 17:48:00.521 DEBUG (MainThread) [homeassistant.components.mqtt.client] mosquitto: unregister write 19
+2025-06-05 17:48:00.522 DEBUG (MainThread) [homeassistant.components.mqtt.client] mosquitto: register write 19
+2025-06-05 17:48:00.522 DEBUG (MainThread) [homeassistant.components.mqtt.client] Subscribing with mid: 46 to topics with qos: [('home/scene/+/+/config', 0)]
+2025-06-05 17:48:00.522 DEBUG (MainThread) [homeassistant.components.mqtt.client] mosquitto: unregister write 19
+2025-06-05 17:48:00.522 DEBUG (MainThread) [homeassistant.components.mqtt.client] mosquitto: register write 19
+2025-06-05 17:48:00.522 DEBUG (MainThread) [homeassistant.components.mqtt.client] Subscribing with mid: 47 to topics with qos: [('home/siren/+/+/config', 0)]
+2025-06-05 17:48:00.522 DEBUG (MainThread) [homeassistant.components.mqtt.client] mosquitto: unregister write 19
+2025-06-05 17:48:00.522 DEBUG (MainThread) [homeassistant.components.mqtt.client] mosquitto: register write 19
+2025-06-05 17:48:00.522 DEBUG (MainThread) [homeassistant.components.mqtt.client] Subscribing with mid: 48 to topics with qos: [('home/select/+/+/config', 0)]
+2025-06-05 17:48:00.523 DEBUG (MainThread) [homeassistant.components.mqtt.client] mosquitto: unregister write 19
+2025-06-05 17:48:00.523 DEBUG (MainThread) [homeassistant.components.mqtt.client] mosquitto: register write 19
+2025-06-05 17:48:00.523 DEBUG (MainThread) [homeassistant.components.mqtt.client] Subscribing with mid: 49 to topics with qos: [('home/sensor/+/+/config', 0)]
+2025-06-05 17:48:00.523 DEBUG (MainThread) [homeassistant.components.mqtt.client] mosquitto: unregister write 19
+2025-06-05 17:48:00.523 DEBUG (MainThread) [homeassistant.components.mqtt.client] mosquitto: register write 19
+2025-06-05 17:48:00.523 DEBUG (MainThread) [homeassistant.components.mqtt.client] Subscribing with mid: 50 to topics with qos: [('home/switch/+/+/config', 0)]
+2025-06-05 17:48:00.524 DEBUG (MainThread) [homeassistant.components.mqtt.client] mosquitto: unregister write 19
+2025-06-05 17:48:00.524 DEBUG (MainThread) [homeassistant.components.mqtt.client] mosquitto: register write 19
+2025-06-05 17:48:00.524 DEBUG (MainThread) [homeassistant.components.mqtt.client] Subscribing with mid: 51 to topics with qos: [('home/tag/+/+/config', 0)]
+2025-06-05 17:48:00.524 DEBUG (MainThread) [homeassistant.components.mqtt.client] mosquitto: unregister write 19
+2025-06-05 17:48:00.524 DEBUG (MainThread) [homeassistant.components.mqtt.client] mosquitto: register write 19
+2025-06-05 17:48:00.524 DEBUG (MainThread) [homeassistant.components.mqtt.client] Subscribing with mid: 52 to topics with qos: [('home/text/+/+/config', 0)]
+2025-06-05 17:48:00.524 DEBUG (MainThread) [homeassistant.components.mqtt.client] mosquitto: unregister write 19
+2025-06-05 17:48:00.525 DEBUG (MainThread) [homeassistant.components.mqtt.client] mosquitto: register write 19
+2025-06-05 17:48:00.525 DEBUG (MainThread) [homeassistant.components.mqtt.client] Subscribing with mid: 53 to topics with qos: [('home/update/+/+/config', 0)]
+2025-06-05 17:48:00.525 DEBUG (MainThread) [homeassistant.components.mqtt.client] mosquitto: unregister write 19
+2025-06-05 17:48:00.525 DEBUG (MainThread) [homeassistant.components.mqtt.client] mosquitto: register write 19
+2025-06-05 17:48:00.525 DEBUG (MainThread) [homeassistant.components.mqtt.client] Subscribing with mid: 54 to topics with qos: [('home/vacuum/+/+/config', 0)]
+2025-06-05 17:48:00.525 DEBUG (MainThread) [homeassistant.components.mqtt.client] mosquitto: unregister write 19
+2025-06-05 17:48:00.526 DEBUG (MainThread) [homeassistant.components.mqtt.client] mosquitto: register write 19
+2025-06-05 17:48:00.526 DEBUG (MainThread) [homeassistant.components.mqtt.client] Subscribing with mid: 55 to topics with qos: [('home/valve/+/+/config', 0)]
+2025-06-05 17:48:00.526 DEBUG (MainThread) [homeassistant.components.mqtt.client] mosquitto: unregister write 19
+2025-06-05 17:48:00.526 DEBUG (MainThread) [homeassistant.components.mqtt.client] mosquitto: register write 19
+2025-06-05 17:48:00.526 DEBUG (MainThread) [homeassistant.components.mqtt.client] Subscribing with mid: 56 to topics with qos: [('home/water_heater/+/+/config', 0)]
+2025-06-05 17:48:00.526 DEBUG (MainThread) [homeassistant.components.mqtt.client] mosquitto: unregister write 19
+2025-06-05 17:48:00.526 DEBUG (MainThread) [homeassistant.components.mqtt.client] mosquitto: register write 19
+2025-06-05 17:48:00.526 DEBUG (MainThread) [homeassistant.components.mqtt.client] Subscribing with mid: 57 to topics with qos: [('home/device/+/config', 0)]
+2025-06-05 17:48:00.527 DEBUG (MainThread) [homeassistant.components.mqtt.client] mosquitto: unregister write 19
+2025-06-05 17:48:00.527 DEBUG (MainThread) [homeassistant.components.mqtt.client] mosquitto: register write 19
+2025-06-05 17:48:00.527 DEBUG (MainThread) [homeassistant.components.mqtt.client] Subscribing with mid: 58 to topics with qos: [('home/device/+/+/config', 0)]
+2025-06-05 17:48:00.527 DEBUG (MainThread) [homeassistant.components.mqtt.client] mosquitto: unregister write 19
+2025-06-05 17:48:00.527 DEBUG (MainThread) [homeassistant.components.mqtt.client] mosquitto: register write 19
+2025-06-05 17:48:00.527 DEBUG (MainThread) [homeassistant.components.mqtt.client] Subscribing with mid: 59 to topics with qos: [('drop_connect/discovery/#', 0)]
+2025-06-05 17:48:00.527 DEBUG (MainThread) [homeassistant.components.mqtt.client] mosquitto: unregister write 19
+2025-06-05 17:48:00.528 DEBUG (MainThread) [homeassistant.components.mqtt.client] mosquitto: register write 19
+2025-06-05 17:48:00.528 DEBUG (MainThread) [homeassistant.components.mqtt.client] Subscribing with mid: 60 to topics with qos: [('dsmr/#', 0)]
+2025-06-05 17:48:00.528 DEBUG (MainThread) [homeassistant.components.mqtt.client] mosquitto: unregister write 19
+2025-06-05 17:48:00.528 DEBUG (MainThread) [homeassistant.components.mqtt.client] mosquitto: register write 19
+2025-06-05 17:48:00.528 DEBUG (MainThread) [homeassistant.components.mqtt.client] Subscribing with mid: 61 to topics with qos: [('esphome/discover/#', 0)]
+2025-06-05 17:48:00.529 DEBUG (MainThread) [homeassistant.components.mqtt.client] mosquitto: unregister write 19
+2025-06-05 17:48:00.529 DEBUG (MainThread) [homeassistant.components.mqtt.client] mosquitto: register write 19
+2025-06-05 17:48:00.529 DEBUG (MainThread) [homeassistant.components.mqtt.client] Subscribing with mid: 62 to topics with qos: [('fully/deviceInfo/+', 0)]
+2025-06-05 17:48:00.529 DEBUG (MainThread) [homeassistant.components.mqtt.client] mosquitto: unregister write 19
+2025-06-05 17:48:00.529 DEBUG (MainThread) [homeassistant.components.mqtt.client] mosquitto: register write 19
+2025-06-05 17:48:00.529 DEBUG (MainThread) [homeassistant.components.mqtt.client] Subscribing with mid: 63 to topics with qos: [('pglab/discovery/#', 0)]
+2025-06-05 17:48:00.530 DEBUG (MainThread) [homeassistant.components.mqtt.client] mosquitto: unregister write 19
+2025-06-05 17:48:00.530 DEBUG (MainThread) [homeassistant.components.mqtt.client] mosquitto: register write 19
+2025-06-05 17:48:00.530 DEBUG (MainThread) [homeassistant.components.mqtt.client] Subscribing with mid: 64 to topics with qos: [('cloudapp/QBUSMQTTGW/+/state', 0)]
+2025-06-05 17:48:00.530 DEBUG (MainThread) [homeassistant.components.mqtt.client] mosquitto: unregister write 19
+2025-06-05 17:48:00.530 DEBUG (MainThread) [homeassistant.components.mqtt.client] mosquitto: register write 19
+2025-06-05 17:48:00.530 DEBUG (MainThread) [homeassistant.components.mqtt.client] Subscribing with mid: 65 to topics with qos: [('tasmota/discovery/#', 0)]
+2025-06-05 17:48:00.531 DEBUG (MainThread) [homeassistant.components.mqtt.client] mosquitto: unregister write 19
+2025-06-05 17:48:00.531 DEBUG (MainThread) [homeassistant.components.mqtt.client] mosquitto: register write 19
+2025-06-05 17:48:00.531 DEBUG (MainThread) [homeassistant.components.mqtt.client] Subscribing with mid: 66 to topics with qos: [('cloudapp/QBUSMQTTGW/config', 0), ('cloudapp/QBUSMQTTGW/state', 0)]
+2025-06-05 17:48:00.531 DEBUG (MainThread) [homeassistant.components.mqtt.client] mosquitto: unregister write 19
+2025-06-05 17:48:02.312 WARNING (MainThread) [homeassistant.helpers.translation] Failed to load integration for translation: Integration 'MQTT' not found.
+2025-06-05 17:53:05.112 ERROR (MainThread) [homeassistant.components.websocket_api.http.connection] [281473599150720] Error handling message: Icons should be specified in the form "prefix:name" for dictionary value @ data['icon']. Got 'control' (invalid_format) FIN23 from 192.168.65.1 (Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.5 Safari/605.1.15)
