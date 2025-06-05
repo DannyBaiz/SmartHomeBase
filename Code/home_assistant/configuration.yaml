@@ -13,21 +13,11 @@ input_text:
     initial: ""
     max: 32
 
-script:
-  display_text:
-    alias: "Display Text on LCD"
-    sequence:
-      - service: mqtt.publish
-        data:
-          topic: "home/display"
-          payload: "{{ states('input_text.display_text') }}"
+# Use external file for scripts
+script: !include scripts.yaml
 
-  clear_display:
-    alias: "Clear LCD Display"
-    sequence:
-      - service: mqtt.publish
-        data:
-          topic: "home/display/clear"
-          payload: "CLEAR"
+# Enable YAML mode for Lovelace UI so that ui-lovelace.yaml is used
+lovelace:
+  mode: yaml
 
 

@@ -17,6 +17,8 @@ Dieses Projekt verbindet einen Arduino mit einem Raspberry Pi, um Sensordaten un
 1. Installiere MQTT-Broker auf dem Raspberry Pi.
 2. Lade den Arduino-Code hoch.
 3. Konfiguriere Home Assistant.
+4. Starte den MQTT-Simulator mit `python mqtt_simulator.py`.
+5. Rufe das Dashboard unter `http://<raspberrypi>:8123/lovelace/smart_home` auf, um Sensordaten und Display-Steuerung zu sehen.
 
 ## Anforderungen
 - Raspberry Pi mit installiertem Raspbian OS
